@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'ProximaNova-Light-Webfont';
+  font-weight: normal;
+  font-style: normal;
+  src: ~"url('@{font-path}@{font-file-regular}.eot')";
+  src: ~"url('@{font-path}@{font-file-regular}.eot?#iefix') format('embedded-opentype')",
+       ~"url('@{font-path}@{font-file-regular}.woff') format('woff')",
+       ~"url('@{font-path}@{font-file-regular}.ttf') format('truetype')",
+       ~"url('@{font-path}@{font-file-regular}.svg#proxima_nova_softregular') format('svg')";
+}
+@font-face {
+  font-family: 'ProximaNova-Reg-Webfont';
+  font-weight: normal;
+  font-style: normal;
+  src: ~"url('@{font-path}@{font-file-regular}.eot')";
+  src: ~"url('@{font-path}@{font-file-regular}.eot?#iefix') format('embedded-opentype')",
+       ~"url('@{font-path}@{font-file-regular}.woff') format('woff')",
+       ~"url('@{font-path}@{font-file-regular}.ttf') format('truetype')",
+       ~"url('@{font-path}@{font-file-regular}.svg#proxima_nova_softmedium') format('svg')";
+}
+@font-face {
+  font-family: 'ProximaNova-Sbold-Webfont';
+  font-weight: normal;
+  font-style: normal;
+  src: ~"url('@{font-path}@{font-file-regular}.eot')";
+  src: ~"url('@{font-path}@{font-file-regular}.eot?#iefix') format('embedded-opentype')",
+       ~"url('@{font-path}@{font-file-regular}.woff') format('woff')",
+       ~"url('@{font-path}@{font-file-regular}.ttf') format('truetype')",
+       ~"url('@{font-path}@{font-file-regular}.svg#proxima_nova_softmedium') format('svg')";
+}
+
+
+@font-path:               "../fonts/";
+@font-file-regular:       "ProximaNova-Light-Webfont";
+@font-file-medium:        "ProximaNova-Sbold-Webfont";
+@font-family-sans-serif:  "ProximaNova-Reg-Webfont", Calibri, "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", Arial, sans-serif;
+@headings-color:          #2e4153;
+
+@brand-primary: #243e6c;
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #777!important;
+    opacity:  1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #777!important;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #777!important;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #777!important;
+  opacity:  1;
+}
+
+.img-responsive {display:inline;}
+
+.bold {font-weight:bolder;}
+
+.modal-backdrop {
+  height: 100%;
+}
